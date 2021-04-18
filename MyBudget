@@ -1,0 +1,29 @@
+class MyBudget:
+   def __init__(self, food, clothing, entertainment):
+        self.food = food
+        self.clothing = clothing
+        self.entertainment = entertainment
+
+
+   def deposit():                                                                                                                                                                                                                                      
+        selectedOption = input('please select an option :')
+        if selectedOption == "0":
+            print('How much would you like to deposit? %s' %selectedOption)
+
+            cashOption = int (input(''))
+            currentBalance = 10000 + cashOption
+            print (currentBalance)
+   def withdrawal():
+      pass
+   def balances():
+     pass
+   def transfer():
+     pass
+ 
+p1 = MyBudget("Rice", "Trousers", "Movies")
+
+print(p1.food)
+print(p1.clothing)
+print(p1.entertainment)
+
+#p1.deposit(MyBudget)                                                                                                                                                                      
