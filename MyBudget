@@ -18,6 +18,8 @@ class MyBudget:
             print('How much would you like to Withdraw %s' %selectedOption)
 
             cashOption = int(input(' '))
+            currentBalance = 10000 - cashOption
+            print (currentBalance)
             print('Take your cash')
          
 
@@ -35,5 +37,3 @@ p1 = MyBudget("Rice", "Trousers", "Movies")
 #print(p1.entertainment)
 
 p1.deposit()                                                                                                                                                                      
-                                                                                                                                                                      
-                                                                                                                                                                     
