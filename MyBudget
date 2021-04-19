@@ -13,12 +13,20 @@ class MyBudget:
             cashOption = int (input(''))
             currentBalance = 10000 + cashOption
             print (currentBalance)
-   def withdrawal(food, clothing, entertainment):
-      pass
-   def balances(food, clothing, entertainment):
-     pass
-   def transfer(food, clothing, entertainment):
-     pass
+   
+        elif selectedOption == "1":
+            print('How much would you like to Withdraw %s' %selectedOption)
+
+            cashOption = int(input(' '))
+            print('Take your cash')
+         
+
+        elif selectedOption == "3":
+            print('How much would you like to Transfer %s' %selectedOption)
+            queryOption = input ('')
+            print('Money has been transfered')
+        else:
+            print('wait')
   
 p1 = MyBudget("Rice", "Trousers", "Movies")
 
@@ -27,4 +35,5 @@ p1 = MyBudget("Rice", "Trousers", "Movies")
 #print(p1.entertainment)
 
 p1.deposit()                                                                                                                                                                      
+                                                                                                                                                                      
                                                                                                                                                                      
